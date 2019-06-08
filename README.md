@@ -30,4 +30,14 @@ POST/PUT/PATCH 같은 메서드의 Request Body에 JSON 형식으로 데이터�
 
 
 #### 특이사항
-http://localhost:4000/api/posts 에 post가 잘 작동하지 
+http://localhost:4000/api/posts 에 post가 잘 작동하지않음
+
+##### mongoose를 이용한 Mongodb 연동
+- mongoose
+  Node.js 환경에서 사용하는 MongoDB기반 ODM(Object Data Modeling) 라이브러리/ 데이터베이스 문서들을 자바스크립트 객체처럼 사용할 수 있게 해줌.
+- mongodb 문서 지향적 NoSQL 데이터베이스
+- 문서 = RDBMS의 record와 비슷한 개념
+- 서버 하나에 데이터베이스를 여러 개 가지고 있을 수 있고 각 데이터베이스에는 컬렉션이 여러개 있으며, 컬렉션 내부에는 문서들이 있음. 
+- 스키마와 모델이라는 개념이 있음
+- 스키마 : 컬렉션에 들어가는 문서 내부의 각 필드가 어떤 형식으로 되어 있는지 정의하는 객체
+- 모델 : 스키마를 사용하여 만드는 인스턴스, 디비에서 실제 작업을 처리할 수 있는 함수들을 지니고 있는 객체
