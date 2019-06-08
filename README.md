@@ -22,3 +22,8 @@
 |`DELETE/posts/:id/comments/:commentId`|특정 포스트의 특정 덧글 삭제|
 
 
+##### 컨트롤러 파일 작성
+라우트를 작성할 때, posts.get('/', (ctx) => {...}); 와 같이 선언할 수 있음
+라우트 처리 함수만 모아 놓은 파일 = 컨트롤러 (백엔드 기능을 구현)
+* koa-bodyparser 미들웨어
+POST/PUT/PATCH 같은 메서드의 Request Body에 JSON 형식으로 데이터를 넣어 주면, 이를 파싱하여 서버에서 사용할 수 있게 함.
