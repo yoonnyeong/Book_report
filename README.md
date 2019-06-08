@@ -29,3 +29,5 @@
 POST/PUT/PATCH 같은 메서드의 Request Body에 JSON 형식으로 데이터를 넣어 주면, 이를 파싱하여 서버에서 사용할 수 있게 함.
 
 
+#### 특이사항
+http://localhost:4000/api/posts 에 post가 잘 작동하지 
