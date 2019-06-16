@@ -46,3 +46,6 @@ http://localhost:4000/api/posts 에 post가 잘 작동하지않음
 
 1. ListPage
 <img src="https://github.com/yoonnyeong/Book_report/blob/master/capture_image/ListPage.PNG" width="600">
+
+2.PostPage
+<img src="https://github.com/yoonnyeong/Book_report/blob/master/capture_image/PostPage.PNG" width="600">
