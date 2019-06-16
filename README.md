@@ -45,4 +45,4 @@ http://localhost:4000/api/posts 에 post가 잘 작동하지않음
 #### ListPage / PostPage 작성
 
 1. ListPage
-<img src="이미지 URL">
+<img src="https://github.com/yoonnyeong/Book_report/blob/edit/master/caputre_image/LisgPage.png" width="360">
